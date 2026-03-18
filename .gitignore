@@ -1,0 +1,34 @@
+# Build
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test output
+test-output/
+rerun/
+videos/
+
+# Maven
+dependency-reduced-pom.xml
+
+# Secrets (never commit API keys)
+# configuration.properties is tracked for demo - replace GEMINI_API_KEY with your own
