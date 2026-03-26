@@ -1,6 +1,11 @@
 # AI Selenium Recovery
 
 **AI-powered automatic test recovery for Selenium WebDriver using Playwright MCP and Google Gemini.**
+
+When a Selenium test fails (element not found, stale element, timeout, etc.), the AI agent automatically connects to the same Chrome browser, analyzes the page via accessibility snapshots, and autonomously recovers the test -- no manual intervention needed.
+
+---
+
 1. byte buddy
 2. take driver, build prompt with method arguments, error, intent
 3. resolve cdp point from driver
@@ -9,10 +14,6 @@
 6. send snapshot, intent, error to ai, it will give series of actions
 7. execute each action via playwright
 
-
-When a Selenium test fails (element not found, stale element, timeout, etc.), the AI agent automatically connects to the same Chrome browser, analyzes the page via accessibility snapshots, and autonomously recovers the test -- no manual intervention needed.
-
----
 
 ## How It Works
 
